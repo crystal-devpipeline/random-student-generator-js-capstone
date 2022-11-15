@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Student Generator</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./index.js"></script>
+</head>
+<body>
+    <div class="page-container">
+        <div class="left-container">
+
+            <div class="header">
+                <h3>Name:Weight</h3>
+                <hr>
+                <div id="user-list">
+                    <div class="user-row" id="crystal">crystal: 
+                        <div class="counter-wrapper">
+                            <div class="counter">1</div>
+                            <div class="weight">
+                                <button class="minus" value="crystal" onclick="weightMinus(this)" >
+                                <button class="plus" value="crystal" onclick="weightPlus(this)" >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="scroll-bar">
+                
+            </div>    
+        </div>
+
+        <div class="center-container">
+            <div class="button-div">
+                <h1 id="random-name">XXX</h1>
+                <button id="random-button" onclick="randomUsers()">Who's it gonna be?</button>
+            </div>
+        </div>
+    </div>
+    
+</body> 
+</html>
+
+            
+
